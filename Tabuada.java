@@ -1,3 +1,11 @@
+/*
+Exercício 1: Tabuada de um Número (for)
+
+Enunciado: Escreva um programa em Java que solicite um número inteiro ao usuário e exiba a sua tabuada de multiplicação de 1 a 10.
+
+Conceitos: Laço de repetição com contador determinado (for), controle de iteração e concatenação de strings na saída
+*/
+
 import java.util.Scanner;
 
 public class Tabuada {
