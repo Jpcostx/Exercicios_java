@@ -1,3 +1,17 @@
+/*Enunciado: Crie um programa que leia os três lados de um triângulo (A, B e C). Primeiro, verifique se as medidas formam um triângulo válido (a soma de dois lados quaisquer deve ser sempre maior que o terceiro lado). Se for válido, classifique-o como:
+
+
+Equilátero: Todos os três lados iguais.
+
+Isósceles: Apenas dois lados iguais.
+
+Escaleno: Todos os três lados diferentes.
+
+Se não formar um triângulo, exiba uma mensagem de erro.
+
+Conceitos: Condicionais aninhadas, validação de dados prévia e operadores de igualdade/desigualdade (==, !=).
+*/
+
 import java.util.Scanner;
 
 public class ClassTriangulos {

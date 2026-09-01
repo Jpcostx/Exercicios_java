@@ -1,3 +1,8 @@
+/*Enunciado: Faça um programa que receba três números inteiros distintos e determine qual deles é o maior.
+
+Conceitos: Comparações compostas com operadores relacionais e lógicos.
+*/
+
 import java.util.Scanner;
 
 public class MaiorNumero {
