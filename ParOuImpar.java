@@ -1,3 +1,9 @@
+/*
+Enunciado: Escreva um programa em Java que leia um número inteiro e informe se ele é par ou ímpar.
+
+Conceitos: Operador módulo (%) e estrutura if-else simples
+*/
+    
 import java.util.Scanner;
 
 public class ParOuImpar {
