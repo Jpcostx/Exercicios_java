@@ -1,3 +1,9 @@
+/* Enunciado: Desenvolva uma classe Funcionario com os atributos privados nome (String), matricula (String) e salario (double).
+O construtor deve receber todos os 3 atributos.
+O setSalario(double novoSalario) só deve permitir alterações se o novoSalario for estritamente maior que o salario atual (uma regra da empresa que impede redução salarial arbitrária por atribuição direta). Se for menor ou igual, exiba uma mensagem de erro e não altere o valor.
+Implemente um método exibirDados() que imprima todos os dados formatados.
+Conceitos: Aplicação prática de encapsulamento para garantir invariantes de regras de negócio complexas nos métodos modificadores.
+*/
 import java.util.Scanner;
 
 public class ExFuncionarioSetter {
@@ -35,9 +41,9 @@ public class ExFuncionarioSetter {
     public void setSalario(double novoSalario) {
         if (novoSalario > this.salario) {
             this.salario = novoSalario;
-            System.out.println("✅ Sucesso: Salário atualizado para R$ " + this.salario);
+            System.out.println(" Sucesso: Salário atualizado para R$ " + this.salario);
         } else {
-            System.out.println("⚠️ Erro de conformidade: O novo salário (R$ " + novoSalario + 
+            System.out.println(" Erro de conformidade: O novo salário (R$ " + novoSalario + 
                                ") não pode ser menor ou igual ao salário atual (R$ " + this.salario + ").");
         }
     }
