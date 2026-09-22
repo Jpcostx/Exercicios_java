@@ -35,7 +35,7 @@ public class ExProduto {
 
     public void setPreco(double preco) {
         if (preco < 0) {
-            System.out.println("⚠️ Erro de validação: O preço não pode ser negativo. Valor mantido: R$ " + this.preco);
+            System.out.println(" Erro de validação: O preço não pode ser negativo. Valor mantido: R$ " + this.preco);
             return;
         }
         this.preco = preco;
