@@ -20,18 +20,15 @@ public class IntervaloParesImpares {
         System.out.print("Digite o valor final do intervalo (B): ");
         int limiteB = sc.nextInt();
 
-        // Contadores para armazenar as quantidades
         int qtdPares = 0;
         int qtdImpares = 0;
 
-        // Laço for: inicia em A, vai até B (inclusive, por isso o <=), avançando de 1 em 1
         for (int i = limiteA; i <= limiteB; i++) {
             
-            // Decisão condicional combinada com o operador módulo
             if (i % 2 == 0) {
-                qtdPares++;   // Se o resto da divisão por 2 for 0, soma 1 aos pares
+                qtdPares++; 
             } else {
-                qtdImpares++; // Caso contrário, obrigatoriamente é ímpar, soma 1 aos ímpares
+                qtdImpares++; 
             }
         }
 
